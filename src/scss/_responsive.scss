@@ -1,0 +1,39 @@
+@media (min-width: 768px) {
+    .header {
+        &__logo {
+            float: left;
+        }
+        &__menu {
+            padding-top: 20px;
+            margin-left: 140px;
+        }
+    }
+    .menu-toggle {
+        display: none;
+    }
+
+    .top-menu {
+        display: flex!important;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        position: relative;
+    }
+    .top-menu {
+        flex-flow: column wrap;
+        justify-content: space-around;
+        padding: 0;
+        text-align: center;
+        display: none;
+        a {
+            display: block;
+            padding: 15px;
+            border-top: 1px solid rgba(255, 255, 255, 0.4);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+    }
+}
+

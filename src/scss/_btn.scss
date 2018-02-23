@@ -1,0 +1,37 @@
+
+.btn {
+	cursor: pointer;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	&:focus, &:active {
+		outline: none;
+		box-shadow: none;
+	}
+
+	&-default {
+		background: #dddddd;
+		color: #ffffff;
+		&:hover {
+			background: #9f9f9f;
+			color: #ffffff;
+		}
+	}
+
+	&-icon {
+		padding-right: 43px;
+		.btn-icon__content {
+			position: relative;
+			padding-left: 43px;
+		}
+
+		&__img {
+			position: absolute;
+			top: 50%;
+			left: 0;
+			transform: translateY(-50%);
+			color: #fff;
+			font-size: 24px;
+			line-height: 18px;
+		}
+	}
+}

@@ -1,0 +1,84 @@
+// Px to em convert
+@function em($pixels, $context: $browser-context) {
+	@return #{$pixels/$context}em;
+}
+
+// Placeholer mixin
+@mixin placeholder {
+	&::-webkit-input-placeholder {
+		@content
+	}
+	&:-moz-placeholder {
+		@content
+	}
+	&::-moz-placeholder {
+		@content
+	}
+	&:-ms-input-placeholder {
+		@content
+	}
+}
+
+html {
+	height: 100%;
+}
+
+html, body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	border: 0;
+	font-size: 16px;
+	font-weight: 400;
+	min-width: 320px;
+	min-height: 100%;
+	position: relative;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: top;
+}
+
+* {
+	outline: 0;
+}
+
+.container {
+	max-width: 100%
+}
+
+.outerContainer {
+	margin: 0 -15px;
+}
+
+.icon {
+	vertical-align: middle;
+}
+
+.transform-center {
+	transform: translate(-50%, -50%);
+}
+
+.inlineIcon-xs {
+	display: none;
+}
+.cfix {
+    &:after {
+        content: '';
+        display: block;
+        height: 0;
+        width: 100%;
+        clear: both;
+    }
+}
+
+.gray-bg {
+    background: #f3f3f3;
+    margin-bottom: 20px;
+}
+.pad-block {
+    padding:10px 10px;
+}

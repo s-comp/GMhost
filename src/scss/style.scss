@@ -1,0 +1,22 @@
+@import 'lib/mixins';
+@import 'lib/normalize';
+@import 'lib/sprite';
+
+//for bootstrap 3
+//	@import "_customVariables";
+//	@import "lib/bootstrap-sass/bootstrap";
+
+//for bootstrap 4
+@import "lib/bootstrap4/bootstrap-reboot.scss";
+@import "lib/bootstrap4/type.scss";
+@import "lib/bootstrap4/buttons.scss";
+@import "lib/bootstrap4/forms.scss";
+@import "lib/bootstrap4/bootstrap-grid.scss";
+@import "lib/bootstrap4/pagination";
+
+@import 'common';
+@import "fonts";
+@import "partials";
+@import 'btn';
+@import 'main';
+@import 'responsive';
