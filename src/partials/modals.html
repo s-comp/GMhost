@@ -1,0 +1,180 @@
+<div class="modal modal__call-manager" id="modal-call-manager">
+    <div class="modal__content">
+        <div class="modal__title">
+            Связаться с менеджером
+        </div>
+        <div class="modal__txt-type2">
+            <p>Оставьте свой телефон или емейл и с вами свяжется наш менеджер, проконсультирует</p>
+            <p>по всем вопросам, рассчитает стоимость, предоставит возможность тестирования услуг</p>
+        </div>
+        <div class="modal__flex-container">
+            <div class="modal__flex-container-col">
+                <form class="modal__form">
+                    <input type="text" class="modal__input" placeholder="Телефон или email">
+                    <button type="submit" class="modal__form-btn btn btn-blue">Связаться со мной</button>
+                </form>
+            </div>
+            <div class="modal__flex-container-col">
+                <p class="modal__flex-container-text">Можете начать чат с <br>нашим консультантом</p>
+                <a href="#" class="modal__form-btn btn btn-blue-transparent">Онлайн-чат</a>
+            </div>
+        </div>
+        <div class="modal__contact">
+            <div class="modal__contact-col">
+                <ul class="phone-list">
+                    <li class="phone-list__item">
+                        <span class="phone-list__item-icon ic_ua">
+                            <img src="../img/ic_ua-blue.png" alt="">
+                        </span>
+                        <a href="tel:+380442213343" class="phone-list__phone-link">+380 (44) 221 3 343</a>
+                    </li>
+                    <li class="phone-list__item">
+                        <span class="phone-list__item-icon ic_ru">
+                            <img src="../img/ic_ru-blue.png" alt="">
+                        </span>
+                        <a href="tel:+74993807193" class="phone-list__phone-link">+7 (499) 380 7 193</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="modal__contact-col">
+                <ul class="phone-list">
+                    <li class="phone-list__item">
+                        <span class="phone-list__item-icon ic_ua">
+                            <img src="../img/ic_ee-blue.png" alt="">
+                        </span>
+                        <a href="tel:+380442213343" class="phone-list__phone-link">+380 (44) 221 3 343</a>
+                    </li>
+                    <li class="phone-list__item">
+                        <span class="phone-list__item-icon ic_ru">
+                            <img src="../img/ic_mail-blue.png" alt="">
+                        </span>
+                        <a href="mailto:manager@gmhost.hosting" class="phone-list__phone-link">manager@gmhost.hosting</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="modal__footer">
+            <a href="/contact.html" class="modal__txt-link">Все контакты</a>
+        </div>
+    </div>
+</div>
+
+<div class="modal modal__push-question" id="modal-push-question">
+    <div class="modal__content">
+        <div class="modal__title">
+            Задайте свой вопрос
+        </div>
+        <div class="modal__txt-type2">
+            Вы так же можете задать вопрос на нашу електронную пошту <a href="mailto:support@gmhost.com.ua">support@gmhost.com.ua</a>
+        </div>
+        <form class="modal__form">
+            <input type="email" class="modal__input" placeholder="Ваш email">
+            <input type="text" class="modal__input" placeholder="Ваш вопрос">
+            <button type="submit" class="modal__form-btn btn btn-blue">Войти</button>
+        </form>
+    </div>
+</div>
+
+<div class="modal modal__request-fault" id="modal-request-fault">
+    <div class="modal__content">
+        <div class="modal__text">
+            <p class="txt-orange">Упсс…что-то пошло не так</p>
+            <p>Проверьте правильность ввода данных</p>
+        </div>
+    </div>
+</div>
+
+<div class="modal modal__request-success" id="modal-request-success">
+    <div class="modal__content">
+        <div class="modal__text">
+            <p>Ваш запрос отправлен, ждите звонка!</p>
+            <p>Спасибо, что воспользовались нашими услугами :)</p>
+        </div>
+    </div>
+</div>
+
+<div class="modal modal__registration" id="modal-registration">
+    <div class="modal__content">
+        <div class="modal__title">
+            Создайте свой аккаунт
+        </div>
+        <form class="modal__form">
+            <input type="text" class="modal__input" placeholder="Имя пользователя">
+            <input type="password" class="modal__input" placeholder="Пароль">
+            <div class="modal__checkbox">
+                <label class="checkbox">
+                    <input type="checkbox" required>
+                    <span class="label-text">Я согласен с <a href="#" class="modal__txt-link">Пользовательским соглашением*</a></span>
+                </label>
+            </div>
+            <div class="modal__checkbox">
+                <label class="checkbox">
+                    <input type="checkbox" required>
+                    <span class="label-text">Я согласен с <a href="#" class="modal__txt-link">Политикой конфиденциальности*</a></span>
+                </label>
+            </div>
+            <div class="modal__checkbox">
+                <label class="checkbox">
+                    <input type="checkbox">
+                    <span class="label-text">Я согласен получать новостные уведомления и SMS</span>
+                </label>
+            </div>
+            <button type="submit" class="modal__form-btn btn btn-blue">Создать аккаунт</button>
+        </form>
+        <div class="modal__footer">
+            У Вас уже есть аккаунт? <a href="#modal-autorization" class="modal__txt-link js-modal"> Войти</a>
+        </div>
+    </div>
+</div>
+
+<div class="modal modal__autorization" id="modal-autorization">
+    <div class="modal__content">
+        <div class="modal__title">
+            Войдите в свой аккаунт
+        </div>
+        <form class="modal__form">
+            <input type="text" class="modal__input" placeholder="Имя пользователя">
+            <input type="password" class="modal__input" placeholder="Пароль">
+            <button type="submit" class="modal__form-btn btn btn-blue">Войти</button>
+        </form>
+        <a href="#modal-password-recovery" class="modal__btn-link js-modal">Забыли пароль?</a>
+        <div class="modal__footer">
+            У Вас отсутствует учетная запись? <a href="#modal-registration"
+                                                 class="modal__txt-link js-modal">Регистрация</a>
+        </div>
+    </div>
+</div>
+
+<div class="modal modal__password-recovery" id="modal-password-recovery">
+    <div class="modal__content">
+        <div class="modal__title">
+            Восстановление пароля
+        </div>
+        <form class="modal__form">
+            <input type="text" class="modal__input" placeholder="Телефон или email">
+            <p class="modal__form-txt">*В случае, если вы выбрали вариант восстановления по телефону, обращаем ваше
+                внимание, что номер телефона должен быть заранее привязан к учетной записи в личном кабинете.</p>
+            <button type="submit" class="modal__form-btn btn btn-blue">Прислать код</button>
+        </form>
+        <div class="modal__footer">
+            У Вас отсутствует учетная запись? <a href="#modal-registration"
+                                                 class="modal__txt-link js-modal">Регистрация</a>
+        </div>
+    </div>
+</div>
+
+<div class="modal modal__make-ticket" id="modal-make-ticket">
+    <div class="modal__content">
+        <div class="modal__title">
+            Cоздание заявки
+        </div>
+        <div class="modal__txt-type2">
+            Для того, чтобы оставить обращение Вам нужно зайти в личный кабинет
+            и нажать кнопку « Задать новый вопрос»
+        </div>
+        <div class="modal__btn-box">
+            <a href="#modal-registration" class="btn btn-blue-transparent js-modal">Зарегестрироваться</a>
+            <a href="#modal-autorization" class="btn btn-blue js-modal">Войти</a>
+        </div>
+    </div>
+</div>

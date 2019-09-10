@@ -1,37 +1,181 @@
 <header class="header">
-    <div class="container">
-        <div class="clearfix">
-            <div class="header__logo">
-                <div class="site-logo">
-                    <img src="img/logo.png" alt="" />
+    <div class="wrapper">
+        <div class="container">
+            <div class="header__line-top">
+                <div class="header__logo">
+                    <div class="site-logo">
+                        <a href="/index.html">
+                            <svg class="logo" width="111" height="30">
+                                <use xlink:href="#logo"></use>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="header__menu">
-                <div class="menu-toggle" data-toggle="top-menu">
-                    <span></span>
+                <div class="header__menu">
+                    <div class="menu-toggle" data-toggle="top-menu">
+                        <span></span>
+                    </div>
+                    <ul class="menu" data-toggle="top-menu">
+                        <li class="menu__item">
+                            <a href="#" class="menu__item-link">
+                                Продукты и услуги
+                                <span class="ic ic_angle_down">
+                                    <svg width="9" height="4">
+                                        <use xlink:href="#ic_angle_down"></use>
+                                    </svg>
+                                </span>
+                            </a>
+                            <div class="menu__item-box">
+                                <ul class="menu__item-list">
+                                    <li>
+                                        <a href="#">Linux серверы</a>
+                                        Легкие в настройке
+                                        и управлении
+                                    </li>
+                                    <li>
+                                        <a href="/server.html">Выделенные серверы</a>
+                                        Недорогие виртуальные
+                                        серверы
+                                    </li>
+                                    <li>
+                                        <a href="/hosting.html">Виртуальный хостинг</a>
+                                        Ваши проекты работают
+                                        дешевле, но не хуже
+                                    </li>
+                                    <li>
+                                        <a href="#">Windows серверы</a>
+                                        Недорогие виртуальные
+                                        серверы
+                                    </li>
+                                    <li>
+                                        <a href="#">Разработка сайтов</a>
+                                        Недорогие виртуальные
+                                        серверы
+                                    </li>
+                                    <li>
+                                        <a href="/ssl.html">SSL-сертификаты</a>
+                                        Недорогие виртуальные
+                                        серверы
+                                    </li>
+                                    <li>
+                                        <a href="#">S3 хранилище</a>
+                                        Хранилище с двойным
+                                        дублированием данных
+                                    </li>
+                                    <li>
+                                        <a href="/reg_domain.html">Регистрация доменов</a>
+                                        Недорогие виртуальные
+                                        серверы
+                                    </li>
+                                    <li>
+                                        <a href="#">Резервное копирование</a>
+                                        Недорогие виртуальные
+                                        серверы
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item-link">
+                                Решения
+                                <span class="ic ic_angle_down">
+                                    <svg width="9" height="4">
+                                        <use xlink:href="#ic_angle_down"></use>
+                                    </svg>
+                                </span>
+                            </a>
+                            <div class="menu__item-box">
+                                <ul class="menu__item-list">
+                                    <li>
+                                        <a href="#linux">Linux серверы</a>
+                                        Легкие в настройке
+                                        и управлении
+                                    </li>
+                                    <li>
+                                        <a href="/server.html">Выделенные серверы</a>
+                                        Недорогие виртуальные
+                                        серверы
+                                    </li>
+                                    <li>
+                                        <a href="/hosting.html">Виртуальный хостинг</a>
+                                        Ваши проекты работают
+                                        дешевле, но не хуже
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item-link">
+                                О нас
+                                <span class="ic ic_angle_down">
+                                    <svg width="9" height="4">
+                                        <use xlink:href="#ic_angle_down"></use>
+                                    </svg>
+                                </span>
+                            </a>
+                            <div class="menu__item-box">
+                                <ul class="menu__item-list">
+                                    <li>
+                                        <a href="#">Data center</a>
+                                        Легкие в настройке
+                                        и управлении
+                                    </li>
+                                    <li>
+                                        <a href="/contact.html">Контакты</a>
+                                        Недорогие виртуальные
+                                        серверы
+                                    </li>
+                                    <li>
+                                        <a href="/materials.html">Brand materials</a>
+                                        Недорогие виртуальные
+                                        серверы
+                                    </li>
+                                    <li>
+                                        <a href="/partner.html">Партнерка</a>
+                                        Ваши проекты работают
+                                        дешевле, но не хуже
+                                    </li>
+                                    <li>
+                                        <a href="#">Legal</a>
+                                        Хранилище с двойным
+                                        дублированием данных
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/blog.html" class="menu__item-link">
+                                Блог
+                            </a>
+                        </li>
+                        <li class="menu__item action">
+                            <div class="user-action">
+                                <a href="#modal-registration" class="user-action__link sing-up js-modal">Регистрация</a>
+                                <a href="#modal-autorization" class="user-action__link sing-in js-modal">Войти</a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="top-menu" data-toggle="top-menu">
-                    <li>
-                        <a href="#">
-                            Главная
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            После главной
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Не главная
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Еще меньше главная
-                        </a>
-                    </li>
-                </ul>
+                <div class="header__sub-menu">
+                    <div class="lang">
+                        <div class="lang__btn">
+                            EN
+                            <span class="ic ic_angle_down">
+                                <svg width="13" height="6">
+                                    <use xlink:href="#ic_angle_down"></use>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="lang__list">
+                            <a href="#" class="lang__link">RU</a>
+                            <a href="#" class="lang__link">EN</a>
+                        </div>
+                    </div>
+                    <div class="user-action">
+                        <a href="#modal-registration" class="user-action__link sing-up js-modal">Регистрация</a>
+                        <a href="#modal-autorization" class="user-action__link sing-in js-modal">Войти</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

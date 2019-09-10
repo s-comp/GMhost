@@ -2,46 +2,1538 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <title>Elmsoft base</title>
+    <title>GMHOST</title>
     //=include partials/head.html
 </head>
 <body>
 <!-- BEGIN  out-->
-//=include partials/hidden-block.html
-<div class="out">
-    //=include partials/header.html
-    <main class="main">
+//=include partials/svg-sprite.html
+<div class="cookie">
+    <div class="wrapper">
         <div class="container">
-            <div class="two-column">
-                <aside class="two-column__left">
-                    <div class="gray-bg pad-block">
-                        Контент справа
-                    </div>
-                </aside>
-                <div class="two-column__right">
-                    <div class="gray-bg pad-block">
-                        Контент слева
+            <div class="cookie__content">
+                <p class="cookie__text">
+                    Чтобы продолжить просмотр этого веб-сайта, вы должны принять использование файлов cookie, обработку
+                    данных об IP-адресе и местоположении с целью удобного
+                    использования сайта и предоставления наиболее корректной информации по Вашему запросу. <a href="#">Узнать
+                    больше</a> и <a href="#">управлять cookie</a>
+                </p>
+                <a href="#" class="cookie__btn">OK</a>
+            </div>
+        </div>
+    </div>
+</div>
+//=include partials/header.html
+
+<main class="main">
+    <div class="section page-descr">
+        <div class="wrapper">
+            <div class="page-descr__content ua_content">
+                <h1 class="title js-title"></h1>
+                <div class="sub-title js-sub-title"></div>
+                <div class="page-descr__content-row">
+                    <div class="btn-box">
+                        <a href="#modal-registration" class="btn btn-white js-modal">Регистрация</a>
+                        <a href="#modal-call-manager" class="btn btn-white-transparent js-modal">Связаться с менеджером</a>
                     </div>
                 </div>
             </div>
-            <div class="two-column two-column--right">
-                <aside class="two-column__left">
-                    <div class="gray-bg pad-block">
-                        Контент слева
+
+        </div>
+    </div>
+    <div class="section section-tariff">
+        <div class="wrapper">
+            <div class="tabs tariff-tabs">
+                <ul class="tabs__caption">
+                    <li
+                            class="js-tab-button active"
+                            data-show-calc="true"
+                            data-slider='{"title": "Легкие в настройке и управлении Linux VPS с идеальным сочетанием цены, производительности и надежности","sub-title": "Ваши проекты работают дешевле, но не хуже. Попробуйте бесплатно.", "showCalc": true}'
+                    >
+                        Украина
+                    </li>
+                    <li
+                            class="js-tab-button"
+                            data-show-calc="false"
+                            data-slider='{"title": "Лдеальным сочетанием цены, производительности и надежности", "sub-title": "Ваши пр не хуже. Попробуйте бесплатно.", "showCalc": false}'
+                    >
+                        Эстония
+                    </li>
+                </ul>
+                <div class="tabs__content active">
+                    <div class="tariff">
+                        <div class="tariff__box">
+                            <div class="tariff__item">
+                                <div class="tariff__item-content">
+                                    <div class="tariff__card-title ">
+                                        <span class="discont"></span>
+                                        SSD-VDS-4
+                                        <span class="tooltip" title="up to 4GHz/ 4 cores/ 8 threads">?
+                                            <span class="tooltip__text">up to 4GHz/ 4 cores/ 8 threads</span>
+                                        </span>
+                                    </div>
+                                    <div class="price">
+                                            <span class="price__box">
+                                                <span class="price__currency">$</span>
+                                                <span class="price__count">15</span>
+                                                <span class="price__cent">99</span>
+                                                <span class="price__period">/mon</span>
+                                            </span>
+                                    </div>
+                                    <div class="tariff__info-wrap">
+                                        <div class="tariff__info">
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Admin. support</div>
+                                                <div class="tariff__info-col">2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">DDR3 ECC RAM</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Панель</div>
+                                                <div class="tariff__info-col">4 cores</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">SSD</div>
+                                                <div class="tariff__info-col">512gb</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">RAM</div>
+                                                <div class="tariff__info-col">32gb</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">CPU</div>
+                                                <div class="tariff__info-col">4 cores 1.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="btn show-more">
+                                                <svg class="ic_dropdown_2" width="12" height="6">
+                                                    <use xlink:href="#ic_dropdown_2"></use>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-blue btn-buy-tariff">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="tariff__item type-2">
+                                <div class="tariff__item-content">
+                                    <div class="tariff__card-title">SSD-VDS-4</div>
+                                    <div class="price">
+                                            <span class="price__box">
+                                                <span class="price__currency">$</span>
+                                                <span class="price__count">15</span>
+                                                <span class="price__cent">99</span>
+                                                <span class="price__period">/mon</span>
+                                            </span>
+                                    </div>
+                                    <div class="tariff__info-wrap">
+                                        <div class="tariff__info">
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="btn show-more">
+                                                <svg class="ic_dropdown_2" width="12" height="6">
+                                                    <use xlink:href="#ic_dropdown_2"></use>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-blue btn-buy-tariff">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="tariff__item">
+                                <div class="tariff__item-content">
+                                    <div class="tariff__card-title">SSD-VDS-4</div>
+                                    <div class="price">
+                                            <span class="price__box">
+                                                <span class="price__currency">$</span>
+                                                <span class="price__count">15</span>
+                                                <span class="price__cent">99</span>
+                                                <span class="price__period">/mon</span>
+                                            </span>
+                                    </div>
+                                    <div class="tariff__info-wrap">
+                                        <div class="tariff__info">
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="btn show-more">
+                                                <svg class="ic_dropdown_2" width="12" height="6">
+                                                    <use xlink:href="#ic_dropdown_2"></use>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-blue btn-buy-tariff">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="tariff__item">
+                                <div class="tariff__item-content">
+                                    <div class="tariff__card-title">SSD-VDS-4</div>
+                                    <div class="price">
+                                            <span class="price__box">
+                                                <span class="price__currency">$</span>
+                                                <span class="price__count">15</span>
+                                                <span class="price__cent">99</span>
+                                                <span class="price__period">/mon</span>
+                                            </span>
+                                    </div>
+                                    <div class="tariff__info-wrap">
+                                        <div class="tariff__info">
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="tariff__info-row">
+                                                <div class="tariff__info-col">Processor</div>
+                                                <div class="tariff__info-col">4 cores 2.66+ GHz</div>
+                                            </div>
+                                            <div class="btn show-more">
+                                                <svg class="ic_dropdown_2" width="12" height="6">
+                                                    <use xlink:href="#ic_dropdown_2"></use>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-blue btn-buy-tariff">Заказать</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </aside>
-                <div class="two-column__right">
-                    <div class="gray-bg pad-block">
-                        Контент справа
+                </div>
+                <ul class="current-list">
+                    <li class="active"><a href="#">USD</a></li>
+                    <li><a href="#">UAH</a></li>
+                    <li><a href="#">RUB</a></li>
+                    <li><a href="#">EUR</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="section calc-tariff js-show-calc">
+        <div class="wrapper">
+            <div id="tarif-calc-wrap">
+                <div class="tarif-collapse">
+                    <a href="javascript:void(0);" class="btn btn-link">
+                        Создать свой сервер
+                        <svg class="ic_dropdown_2" width="12" height="6">
+                            <use xlink:href="#ic_dropdown_2"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="tarif-calc">
+                    <form method="GET" action="#" id="tariff-form">
+                        <div class="tarif-calc-params-title">
+                            <h3>Укажите желаемые опции и параметры</h3>
+                        </div>
+                        <div class="calc">
+                            <div class="calc__col">
+                                <div class="tarif-calc-selects">
+                                    <div class="tarif-calc-selects__item">
+                                        <label for="tar_os">OC</label>
+                                        <select name="tar_os" id="tar_os">
+                                            <option value="Centos" data-price="1" name="tar_os_name" data-if-cp="1"
+                                                    data-id="3">Centos
+                                            </option>
+                                            <option value="Ubuntu" data-price="1" name="tar_os_name" data-if-cp="1"
+                                                    data-id="3">Ubuntu
+                                            </option>
+                                            <option value="Debian" data-price="1" name="tar_os_name" data-if-cp="1"
+                                                    data-id="4">Debian
+                                            </option>
+                                            <option value="Fedora" data-price="1" name="tar_os_name" data-if-cp="1"
+                                                    data-id="7">Fedora
+                                            </option>
+                                            <option value="OpenSUSE" data-price="1" name="tar_os_name" data-if-cp="1"
+                                                    data-id="6">OpenSUSE
+                                            </option>
+                                            <option value="FreeBSD" data-price="1" name="tar_os_name" data-if-cp="0"
+                                                    data-id="5">FreeBSD
+                                            </option>
+                                            <option value="CoreOS" data-price="1" name="tar_os_name" data-if-cp="0"
+                                                    data-id="10">CoreOS
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="tarif-calc-selects">
+                                    <div class="tarif-calc-selects__item">
+                                        <label for="tar_os_ver">Версия</label>
+                                        <select name="tar_os_ver" id="tar_os_ver">
+                                            <option value="not_selected" data-price="0" disabled>Выберите версию
+                                            </option>
+                                            <option data-os="3" data-price="0"
+                                                    value="GMhost__Centos-6-amd64-gmhost">6 x64
+                                            </option>
+                                            <option data-os="3" data-price="0"
+                                                    value="GMhost__Centos-6-amd64-gmhost-bitrix">6 x64
+                                                bitrix
+                                            </option>
+                                            <option data-os="3" data-price="0"
+                                                    value="GMhost__Centos-6-amd64-gmhost-vestacp">6 x64
+                                                vesta
+                                            </option>
+                                            <option data-os="3" data-price="0"
+                                                    value="GMhost__Centos-6-amd64-ispmgr5-gmhost">6 x64
+                                                ispmgr5
+                                            </option>
+                                            <option data-os="3" data-price="0"
+                                                    value="GMhost__Centos-7-amd64-gmhost">7 x64
+                                            </option>
+                                            <option data-os="3" data-price="0"
+                                                    value="GMhost__Centos-7-amd64-gmhost-vestacp">7 x64
+                                                vesta
+                                            </option>
+                                            <option data-os="10" data-price="0" class="hidden"
+                                                    value="GMhost__CoreOS-amd64-gmhost">x64
+                                            </option>
+                                            <option data-os="4" data-price="0" class="hidden"
+                                                    value="GMhost__Debian-7-amd64-gmhost">7 x64
+                                            </option>
+                                            <option data-os="4" data-price="0" class="hidden"
+                                                    value="GMhost__Debian-7-amd64-gmhost-ispmgr5">7 x64
+                                                ispmgr5
+                                            </option>
+                                            <option data-os="4" data-price="0" class="hidden"
+                                                    value="GMhost__Debian-7-amd64-gmhost-vestacp">7 x64
+                                                vesta
+                                            </option>
+                                            <option data-os="4" data-price="0" class="hidden"
+                                                    value="GMhost__Debian-8-amd64-gmhost">8 x64
+                                            </option>
+                                            <option data-os="4" data-price="0" class="hidden"
+                                                    value="GMhost__Debian-9-amd64-gmhost">9 x64
+                                            </option>
+                                            <option data-os="7" data-price="0" class="hidden"
+                                                    value="GMhost__Fedora-22-amd64-gmhost">22 x64
+                                            </option>
+                                            <option data-os="5" data-price="0" class="hidden"
+                                                    value="ISPsystem__FreeBSD-10-amd64">10 x64
+                                            </option>
+                                            <option data-os="5" data-price="0" class="hidden"
+                                                    value="ISPsystem__FreeBSD-11-amd64">11 x64
+                                            </option>
+                                            <option data-os="6" data-price="0" class="hidden"
+                                                    value="GMhost__OpenSUSE-13.2-amd64-gmhost">13.2 x64
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-12.04-amd64-gmhost">12.04 x64
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-14.04-amd64-gmhost">14.04 x64
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-14.04-amd64-gmhost-ajenti">14.04
+                                                x64 ajenti
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-14.04-amd64-gmhost-lamp">14.04 x64
+                                                lamp
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-14.04-amd64-gmhost-lemp">14.04 x64
+                                                lemp
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-14.04-amd64-gmhost-ovpnas">14.04
+                                                x64 ovpnas
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-14.04-amd64-gmhost-vestacp">14.04
+                                                x64 vesta
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-14.04-amd64-gmhost-wordpress">
+                                                14.04 x64 wordpress
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-14.04-amd64-gmhost-zpanel">14.04
+                                                x64 zpanel
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost">16.04 x64
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-ajenti">16.04
+                                                x64 ajenti
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-lamp">16.04 x64
+                                                lamp
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-lemp">16.04 x64
+                                                lemp
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-vestacp">16.04
+                                                x64 vesta
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-vestacp+drupal">
+                                                16.04 x64 vesta+drupal
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-vestacp+joomla">
+                                                16.04 x64 vesta+joomla
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-vestacp+magento">
+                                                16.04 x64 vesta+magento
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-vestacp+mediawiki">
+                                                16.04 x64 vesta+mediawiki
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-vestacp+opencart">
+                                                16.04 x64 vesta+opencart
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-vestacp+ovpnas">
+                                                16.04 x64 vesta+ovpnas
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-vestacp+owncloud">
+                                                16.04 x64 vesta+owncloud
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-vestacp+prestashop">
+                                                16.04 x64 vesta+prestashop
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-vestacp+wordpress">
+                                                16.04 x64 vesta+wordpress
+                                            </option>
+                                            <option data-os="1" data-price="0" class="hidden"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-zabbix">16.04
+                                                x64 zabbix
+                                            </option>
+                                            <option data-os="2" data-price="0" class="hidden"
+                                                    value="GMhost__WindowsServer-2008_R2_Standard_English_KVM">
+                                                Server 2008 R2 Stand Eng
+                                            </option>
+                                            <option data-os="2" data-price="0" class="hidden"
+                                                    value="GMhost__WindowsServer-2008_R2_Standard_Russian_KVM">
+                                                Server 2008 R2 Stand Rus
+                                            </option>
+                                            <option data-os="2" data-price="0" class="hidden"
+                                                    value="GMhost__WindowsServer-2012_R2_Standard_English_KVM">
+                                                Server 2012 R2 Stand Eng
+                                            </option>
+                                            <option data-os="2" data-price="0" class="hidden"
+                                                    value="GMhost__WindowsServer-2012_R2_Standard_Russian_KVM">
+                                                Server 2012 R2 Stand Rus
+                                            </option>
+                                            <option data-os="2" data-price="0" class="hidden"
+                                                    value="ISPsystem__Windows-Server-2016_Standard_English_KVM">
+                                                Server 2016 Stand Eng
+                                            </option>
+                                        </select>
+                                        <select name="helper_tar_os_ver" id="helper_tar_os_ver">
+                                            <option data-os="3" data-price="0"
+                                                    value="GMhost__Centos-6-amd64-gmhost">6 x64
+                                            </option>
+
+                                            <option data-os="3" data-price="0"
+                                                    value="GMhost__Centos-6-amd64-gmhost-bitrix">6 x64 bitrix
+                                            </option>
+
+                                            <option data-os="3" data-price="0"
+                                                    value="GMhost__Centos-6-amd64-gmhost-vestacp">6 x64 vesta
+                                            </option>
+
+                                            <option data-os="3" data-price="0"
+                                                    value="GMhost__Centos-6-amd64-ispmgr5-gmhost">6 x64 ispmgr5
+                                            </option>
+
+                                            <option data-os="3" data-price="0"
+                                                    value="GMhost__Centos-7-amd64-gmhost">7 x64
+                                            </option>
+
+                                            <option data-os="3" data-price="0"
+                                                    value="GMhost__Centos-7-amd64-gmhost-vestacp">7 x64 vesta
+                                            </option>
+
+                                            <option data-os="10" data-price="0"
+                                                    value="GMhost__CoreOS-amd64-gmhost">x64
+                                            </option>
+
+                                            <option data-os="4" data-price="0"
+                                                    value="GMhost__Debian-7-amd64-gmhost">7 x64
+                                            </option>
+
+                                            <option data-os="4" data-price="0"
+                                                    value="GMhost__Debian-7-amd64-gmhost-ispmgr5">7 x64 ispmgr5
+                                            </option>
+
+                                            <option data-os="4" data-price="0"
+                                                    value="GMhost__Debian-7-amd64-gmhost-vestacp">7 x64 vesta
+                                            </option>
+
+                                            <option data-os="4" data-price="0"
+                                                    value="GMhost__Debian-8-amd64-gmhost">8 x64
+                                            </option>
+
+                                            <option data-os="4" data-price="0"
+                                                    value="GMhost__Debian-9-amd64-gmhost">9 x64
+                                            </option>
+
+                                            <option data-os="7" data-price="0"
+                                                    value="GMhost__Fedora-22-amd64-gmhost">22 x64
+                                            </option>
+
+                                            <option data-os="5" data-price="0"
+                                                    value="ISPsystem__FreeBSD-10-amd64">10 x64
+                                            </option>
+
+                                            <option data-os="5" data-price="0"
+                                                    value="ISPsystem__FreeBSD-11-amd64">11 x64
+                                            </option>
+
+                                            <option data-os="6" data-price="0"
+                                                    value="GMhost__OpenSUSE-13.2-amd64-gmhost">13.2 x64
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-12.04-amd64-gmhost">12.04 x64
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-14.04-amd64-gmhost">14.04 x64
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-14.04-amd64-gmhost-ajenti">14.04 x64
+                                                ajenti
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-14.04-amd64-gmhost-lamp">14.04 x64
+                                                lamp
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-14.04-amd64-gmhost-lemp">14.04 x64
+                                                lemp
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-14.04-amd64-gmhost-ovpnas">14.04 x64
+                                                ovpnas
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-14.04-amd64-gmhost-vestacp">14.04 x64
+                                                vesta
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-14.04-amd64-gmhost-wordpress">14.04
+                                                x64 wordpress
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-14.04-amd64-gmhost-zpanel">14.04 x64
+                                                zpanel
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost">16.04 x64
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-ajenti">16.04 x64
+                                                ajenti
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-lamp">16.04 x64
+                                                lamp
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-lemp">16.04 x64
+                                                lemp
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-vestacp">16.04 x64
+                                                vesta
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-vestacp+drupal">
+                                                16.04 x64 vesta+drupal
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-vestacp+joomla">
+                                                16.04 x64 vesta+joomla
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-vestacp+magento">
+                                                16.04 x64 vesta+magento
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-vestacp+mediawiki">
+                                                16.04 x64 vesta+mediawiki
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-vestacp+opencart">
+                                                16.04 x64 vesta+opencart
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-vestacp+ovpnas">
+                                                16.04 x64 vesta+ovpnas
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-vestacp+owncloud">
+                                                16.04 x64 vesta+owncloud
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-vestacp+prestashop">
+                                                16.04 x64 vesta+prestashop
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-vestacp+wordpress">
+                                                16.04 x64 vesta+wordpress
+                                            </option>
+
+                                            <option data-os="1" data-price="0"
+                                                    value="GMhost__Ubuntu-16.04-amd64-gmhost-zabbix">16.04 x64
+                                                zabbix
+                                            </option>
+
+                                            <option data-os="2" data-price="0"
+                                                    value="GMhost__WindowsServer-2008_R2_Standard_English_KVM">
+                                                Server 2008 R2 Stand Eng
+                                            </option>
+
+                                            <option data-os="2" data-price="0"
+                                                    value="GMhost__WindowsServer-2008_R2_Standard_Russian_KVM">
+                                                Server 2008 R2 Stand Rus
+                                            </option>
+
+                                            <option data-os="2" data-price="0"
+                                                    value="GMhost__WindowsServer-2012_R2_Standard_English_KVM">
+                                                Server 2012 R2 Stand Eng
+                                            </option>
+
+                                            <option data-os="2" data-price="0"
+                                                    value="GMhost__WindowsServer-2012_R2_Standard_Russian_KVM">
+                                                Server 2012 R2 Stand Rus
+                                            </option>
+
+                                            <option data-os="2" data-price="0"
+                                                    value="ISPsystem__Windows-Server-2016_Standard_English_KVM">
+                                                Server 2016 Stand Eng
+                                            </option>
+
+                                        </select>
+                                    </div>
+                                    <div class="tarif-calc-selects__item">
+                                        <label for="tar_cp">Панель управления</label>
+                                        <select name="tar_cp" id="tar_cp">
+                                            <option value="none" data-price="0" selected="selected">
+                                                Бесплатная
+                                            </option>
+                                            <option data-os="0" data-price="3.99" value="16">ISPmanager 5
+                                                Lite
+                                            </option>
+                                            <option data-os="0" data-price="10.9" value="86">ISPmanager 5
+                                                Business
+                                            </option>
+                                            <option data-os="0" data-price="8" value="88">DNSmanager5
+                                            </option>
+                                            <option data-os="0" data-price="5.4" value="91">DCImanager 5
+                                                Essential
+                                            </option>
+                                            <option data-os="0" data-price="10.9" value="92">DCImanager 5
+                                                Progressive
+                                            </option>
+                                            <option data-os="0" data-price="7.2" value="93">BILLmanager 5
+                                                Standard
+                                            </option>
+                                            <option data-os="0" data-price="10.9" value="94">BILLmanager 5
+                                                Advanced
+                                            </option>
+                                            <option data-os="0" data-price="43.2" value="95">BILLmanager 5
+                                                Corporate
+                                            </option>
+                                        </select>
+                                        <select name="helper_tar_cp" id="helper_tar_cp">
+                                            <option data-os="0" data-price="3.99" value="16">ISPmanager 5 Lite
+                                            </option>
+                                            <option data-os="0" data-price="10.9" value="86">ISPmanager 5
+                                                Business
+                                            </option>
+                                            <option data-os="0" data-price="8" value="88">DNSmanager5</option>
+                                            <option data-os="0" data-price="5.4" value="91">DCImanager 5
+                                                Essential
+                                            </option>
+                                            <option data-os="0" data-price="10.9" value="92">DCImanager 5
+                                                Progressive
+                                            </option>
+                                            <option data-os="0" data-price="7.2" value="93">BILLmanager 5
+                                                Standard
+                                            </option>
+                                            <option data-os="0" data-price="10.9" value="94">BILLmanager 5
+                                                Advanced
+                                            </option>
+                                            <option data-os="0" data-price="43.2" value="95">BILLmanager 5
+                                                Corporate
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="calc__col">
+                                <div class="tariff-calc-sliders">
+                                    <div class="tarif-calc-slider">
+                                        <div class="tarif-calc-slider__row">
+                                            <label for="SSD">SSD</label>
+                                            <input type="range" min="15" data-key="addon_1565" data-price="0.5"
+                                                   max="160" value="15" class="slider" step="5">
+                                            <div class="tarif-calc-slider__count">
+                                                <input type="text" name="SSD" data-price="0.5" readonly="readonly"
+                                                       value="15" disabled="disabled">
+                                                <p>Gb</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tarif-calc-slider">
+                                        <div class="tarif-calc-slider__row">
+                                            <label for="RAM">RAM</label>
+                                            <input type="range" min="1" data-key="addon_1566" data-price="1" max="80"
+                                                   value="1" class="slider" step="0.5">
+                                            <div class="tarif-calc-slider__count">
+                                                <input type="text" name="RAM" data-price="1" readonly="readonly"
+                                                       value="1" disabled="disabled">
+                                                <p>Gb</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tarif-calc-slider">
+                                        <div class="tarif-calc-slider__row">
+                                            <label for="CPU">CPU</label>
+                                            <input type="range" min="1" data-key="addon_1567" data-price="1" max="24"
+                                                   value="1" class="slider" step="1">
+                                            <div class="tarif-calc-slider__count">
+                                                <input type="text" name="CPU" data-price="1" readonly="readonly"
+                                                       value="1" disabled="disabled">
+                                                <p>Шт</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="calc__col">
+                                <div class="tariff-calc-result">
+                                    <div class="tariff__item ">
+                                        <div class="tariff__item-content">
+                                            <div class="tariff__card-title">SSD-VDS-4</div>
+                                            <div class="price tarif-calc-result-price">
+                                                <p class="price__box" data-rate="1">
+                                                    <sup class="price__currency">$</sup>
+                                                    <b class="price__count bef_dot">15</b>
+                                                    <sup class="price__cent aft_dot">99</sup>
+                                                    <i class="price__period">/mon</i>
+                                                </p>
+                                            </div>
+                                            <div class="tariff__info">
+                                                <div class="tariff__info-row osrval">
+                                                    <div class="tariff__info-col">OC</div>
+                                                    <div class="tariff__info-col rval">Centos</div>
+                                                </div>
+                                                <div class="tariff__info-row vrval">
+                                                    <div class="tariff__info-col">Версия</div>
+                                                    <div class="tariff__info-col rval"></div>
+                                                </div>
+                                                <div class="tariff__info-row panelrval">
+                                                    <div class="tariff__info-col">Панель</div>
+                                                    <div class="tariff__info-col rval"></div>
+                                                </div>
+                                                <div class="tariff__info-row service-total">
+                                                    <div class="tariff__info-col">SSD</div>
+                                                    <div class="tariff__info-col rval" data-service="SSD">15</div>
+                                                </div>
+                                                <div class="tariff__info-row service-total">
+                                                    <div class="tariff__info-col">RAM</div>
+                                                    <div class="tariff__info-col rval" data-service="RAM">1</div>
+                                                </div>
+                                                <div class="tariff__info-row service-total">
+                                                    <div class="tariff__info-col">CPU</div>
+                                                    <div class="tariff__info-col rval" data-service="CPU">1</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tarif-calc-result-order">
+                                <button type="submit" class="btn btn-blue btn-buy-tariff">Заказать</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="tarif-calc__text">
+                        *Мы бесплатно предоставляем услуги круглосуточной технической поддержки, базового
+                        администрирования и поддержку ваших доменных зон (DNS). В случае, если в
+                        течение месяца потребление трафика сильно превысит 5 ТБ в месяц, мы оставляем за собой право
+                        снизить пропускную способность канала до 10 Мбит/с до конца
+                        месяца. На любом тарифе вы можете заказать сервер с бесплатными панелями VestaCP, ZPanelCP или
+                        Ajenti. Заказывая сервер на год, вы можете бесплатно получить
+                        SSL-сертификат Comodo Positive SSL по запросу. В случае досрочного прекращения аренды сервера
+                        удерживается стоимость SSL-сертификата, возможно удержание
+                        средств в качестве компенсации за оказанные услуги в рамках бесплатного переноса или базового
+                        администрирования по нашему усмотрению (см. регламент возврата
+                        средств). Для заказа сервера на тест, обратитесь с запросом в поддержку, указав цели
+                        тестирования, желаемый тариф и срок тестирования.
                     </div>
                 </div>
             </div>
         </div>
-    </main>
+    </div>
+    <div class="section about-us">
+        <div class="wrapper">
+            <h1 class="section__title">Все сервера включают</h1>
+            <div class="about-us__box">
+                <div class="card">
+                    <div class="card__box">
+                        <div class="card__line-top">
+                            <div class="card__icon">
+                                <svg width="27" height="32" class="ic ic_headphones">
+                                    <use xlink:href="#ic_headphones"></use>
+                                </svg>
+                            </div>
+                            <div class="card__title">
+                                Бесплатное базовое
+                                администрирование
+                            </div>
+                        </div>
+                        <div class="card__text">
+                            Мы бесплатно предоставляем услуги
+                            круглосуточной технической поддержки,
+                            базового администрирования
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__line-top">
+                        <div class="card__icon">
+                            <svg width="27" height="32" class="ic ic_ssd">
+                                <use xlink:href="#ic_ssd"></use>
+                            </svg>
+                        </div>
+                        <div class="card__title">
+                            Быстрые SSD
+                        </div>
+                    </div>
+                    <div class="card__text">
+                        Мы используем виртуализацию KVM, что позволяет вам получать гарантированные аппаратные ресурсы и
+                        расширенные возможности конфигурирования системы сервера на уровне ядра.
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__line-top">
+                        <div class="card__icon">
+                            <svg width="25" height="32" class="ic ic_graphic">
+                                <use xlink:href="#ic_graphic"></use>
+                            </svg>
+                        </div>
+                        <div class="card__title">
+                            Тест услуг бесплатно
+                        </div>
+                    </div>
+                    <div class="card__text">
+                        Мы используем виртуализацию KVM, что позволяет вам получать гарантированные аппаратные ресурсы и
+                        расширенные возможности конфигурирования системы сервера на уровне ядра.
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__line-top">
+                        <div class="card__icon">
+                            <svg width="33" height="32" class="ic ic_clock">
+                                <use xlink:href="#ic_clock"></use>
+                            </svg>
+                        </div>
+                        <div class="card__title">
+                            Быстрая выдача/автовыдача
+                            20 минут
+                        </div>
+                    </div>
+                    <div class="card__text">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__line-top">
+                        <div class="card__icon">
+                            <svg width="27" height="32" class="ic ic_ssl">
+                                <use xlink:href="#ic_ssl"></use>
+                            </svg>
+                        </div>
+                        <div class="card__title">
+                            Бесплатные SSL-сертификаты
+                        </div>
+                    </div>
+                    <div class="card__text">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__line-top">
+                        <div class="card__icon">
+                            <svg width="35" height="32" class="ic ic_storage">
+                                <use xlink:href="#ic_storage"></use>
+                            </svg>
+                        </div>
+                        <div class="card__title">
+                            Хранение записей систем
+                            видеонаблюдения
+                        </div>
+                    </div>
+                    <div class="card__text">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn btn-blue-transparent">
+                Больше преимуществ
+            </a>
+        </div>
+    </div>
+    <div class="section section-promo">
+        <div class="wrapper">
+            <div class="promo">
+                <div class="promo__title">
+                    СКИДКА
+                </div>
+                <div class="promo__text">
+                    При заказе сервера сроком на 3, 6 или
+                    12 месяцев, вы получаете скидку
+                    2.5%, 5% и 15%.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section-slider">
+        <div class="wrapper">
+            <div class="slider js-slider">
+                <div class="slider__item">
+                    <a href="#">
+                        <div class="slider__item-title">
+                            111.64₴/мес
+                            <span class="tooltip" title="up to 4GHz/ 4 cores/ 8 threads">?
+                                <span class="tooltip__text">up to 4GHz/ 4 cores/ 8 threads</span>
+                            </span>
+                        </div>
+                        <div class="slider__item-text">
+                            Лицензия на панель
+                            управления сервером
+                            ISPmanager 5 Lite
+                        </div>
+                    </a>
+                </div>
+                <div class="slider__item">
+                    <a href="#">
+                        <div class="slider__item-title">от 27.98₴/год</div>
+                        <div class="slider__item-text">
+                            Регистрация доменов
+                        </div>
+                    </a>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__item-title">от 19.31₴/мес</div>
+                    <div class="slider__item-text">
+                        Место для резервного
+                        копирования (backup)
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__item-title">111.64₴/мес</div>
+                    <div class="slider__item-text">
+                        Лицензия на панель
+                        управления сервером
+                        ISPmanager 5 Lite
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__item-title">111.64₴/мес</div>
+                    <div class="slider__item-text">
+                        Лицензия на панель
+                        управления сервером
+                        ISPmanager 5 Lite
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__item-title">111.64₴/мес</div>
+                    <div class="slider__item-text">
+                        Лицензия на панель
+                        управления сервером
+                        ISPmanager 5 Lite
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section-banner-vps">
+        <div class="wrapper">
+            <div class="banner-vps tabs">
+                <div class="tabs__content active">
+                    <h1 class="section__title">VPS на Linux</h1>
+                    <div class="sub-title">
+                        Предлагаем быстрые VPS на лицензионной Windows по самым конкурентным ценам. Работайте с
+                        браузером или
+                        бухгалтерскими программами удаленно. Организовывайте безопасные и стабильные рабочие места.
+                        Защитите свои
+                        данные размещая их удаленно - предоставляем локации в Украине и Эстонии.
+                    </div>
+                    <div class="banner-vps__img">
+                        <svg width="126" height="120">
+                            <use xlink:href="#server"></use>
+                        </svg>
+                    </div>
+                </div>
 
-    //=include partials/footer.html
-</div>
+                <div class="tabs__content">
+                    <h1 class="section__title">VPS на Windows</h1>
+                    <div class="sub-title">
+                        Предлагаем быстрые VPS на лицензионной Windows по самым конкурентным ценам. Работайте с
+                        браузером или
+                        бухгалтерскими программами удаленно. Организовывайте безопасные и стабильные рабочие места.
+                        Защитите свои
+                        данные размещая их удаленно - предоставляем локации в Украине и Эстонии.
+                    </div>
+                    <div class="banner-vps__img">
+                        <svg width="126" height="120">
+                            <use xlink:href="#server"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <ul class="tabs__caption">
+                    <li class="active">
+                        <svg width="29" height="32">
+                            <use xlink:href="#ic_linux"></use>
+                        </svg>
+                        Linux VPS
+                    </li>
+                    <li>
+                        <svg width="29" height="32">
+                            <use xlink:href="#ic_windows"></use>
+                        </svg>
+                        Windows VPS
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="section section-system">
+        <div class="systems">
+            <div class="wrapper">
+                <h1 class="section__title">Установка готовых образов в один клик</h1>
+                <div class="sub-title">
+                    Теперь вам не обязательно обладать навыками системного администратора или тратить время на
+                    конфигурацию сервера - выберите
+                    необходимый дистрибутив или приложение и получите настроенное, готовое для работы окружение в
+                    считанные минуты.
+                </div>
+                <ul class="system-list">
+                    <li class="system-list__item">
+                        <div class="system-list__item-icon">
+                            <svg width="53" height="52">
+                                <use xlink:href="#ic_ubuntu"></use>
+                            </svg>
+                        </div>
+                        <div class="system-list__item-name">Ubuntu</div>
+                    </li>
+                    <li class="system-list__item">
+                        <div class="system-list__item-icon">
+                            <svg width="53" height="52">
+                                <use xlink:href="#ic_ubuntu"></use>
+                            </svg>
+                        </div>
+                        <div class="system-list__item-name">Debian</div>
+                    </li>
+                    <li class="system-list__item">
+                        <div class="system-list__item-icon">
+                            <svg width="53" height="52">
+                                <use xlink:href="#ic_ubuntu"></use>
+                            </svg>
+                        </div>
+                        <div class="system-list__item-name">CentOS</div>
+                    </li>
+                    <li class="system-list__item">
+                        <div class="system-list__item-icon">
+                            <svg width="53" height="52">
+                                <use xlink:href="#ic_ubuntu"></use>
+                            </svg>
+                        </div>
+                        <div class="system-list__item-name">FreeBSD</div>
+                    </li>
+                    <li class="system-list__item">
+                        <div class="system-list__item-icon">
+                            <svg width="53" height="52">
+                                <use xlink:href="#ic_ubuntu"></use>
+                            </svg>
+                        </div>
+                        <div class="system-list__item-name">Fedora</div>
+                    </li>
+                    <li class="system-list__item">
+                        <div class="system-list__item-icon">
+                            <svg width="53" height="52">
+                                <use xlink:href="#ic_ubuntu"></use>
+                            </svg>
+                        </div>
+                        <div class="system-list__item-name">Opensuse</div>
+                    </li>
+                    <li class="system-list__item">
+                        <div class="system-list__item-icon">
+                            <svg width="53" height="52">
+                                <use xlink:href="#ic_ubuntu"></use>
+                            </svg>
+                        </div>
+                        <div class="system-list__item-name">CoreOS</div>
+                    </li>
+                    <li class="system-list__item">
+                        <div class="system-list__item-icon">
+                            <svg width="53" height="52">
+                                <use xlink:href="#ic_ubuntu"></use>
+                            </svg>
+                        </div>
+                        <div class="system-list__item-name">Windows</div>
+                    </li>
+                    <li class="system-list__item">
+                        <div class="system-list__item-icon">
+                            <svg width="53" height="52">
+                                <use xlink:href="#ic_ubuntu"></use>
+                            </svg>
+                        </div>
+                        <div class="system-list__item-name">Ubuntu</div>
+                    </li>
+                    <li class="system-list__item">
+                        <div class="system-list__item-icon">
+                            <svg width="53" height="52">
+                                <use xlink:href="#ic_ubuntu"></use>
+                            </svg>
+                        </div>
+                        <div class="system-list__item-name">Ubuntu</div>
+                    </li>
+                    <li class="system-list__item">
+                        <div class="system-list__item-icon">
+                            <svg width="53" height="52">
+                                <use xlink:href="#ic_ubuntu"></use>
+                            </svg>
+                        </div>
+                        <div class="system-list__item-name">Ubuntu</div>
+                    </li>
+                    <li class="system-list__item">
+                        <div class="system-list__item-icon">
+                            <svg width="53" height="52">
+                                <use xlink:href="#ic_ubuntu"></use>
+                            </svg>
+                        </div>
+                        <div class="system-list__item-name">Debian</div>
+                    </li>
+                    <li class="system-list__item">
+                        <div class="system-list__item-icon">
+                            <svg width="53" height="52">
+                                <use xlink:href="#ic_ubuntu"></use>
+                            </svg>
+                        </div>
+                        <div class="system-list__item-name">CentOS</div>
+                    </li>
+                    <li class="system-list__item">
+                        <div class="system-list__item-icon">
+                            <svg width="53" height="52">
+                                <use xlink:href="#ic_ubuntu"></use>
+                            </svg>
+                        </div>
+                        <div class="system-list__item-name">FreeBSD</div>
+                    </li>
+                    <li class="system-list__item">
+                        <div class="system-list__item-icon">
+                            <svg width="53" height="52">
+                                <use xlink:href="#ic_ubuntu"></use>
+                            </svg>
+                        </div>
+                        <div class="system-list__item-name">Fedora</div>
+                    </li>
+                    <li class="system-list__item">
+                        <div class="system-list__item-icon">
+                            <svg width="53" height="52">
+                                <use xlink:href="#ic_ubuntu"></use>
+                            </svg>
+                        </div>
+                        <div class="system-list__item-name">Opensuse</div>
+                    </li>
+                    <li class="system-list__item">
+                        <div class="system-list__item-icon">
+                            <svg width="53" height="52">
+                                <use xlink:href="#ic_ubuntu"></use>
+                            </svg>
+                        </div>
+                        <div class="system-list__item-name">CoreOS</div>
+                    </li>
+                    <li class="system-list__item">
+                        <div class="system-list__item-icon">
+                            <svg width="53" height="52">
+                                <use xlink:href="#ic_ubuntu"></use>
+                            </svg>
+                        </div>
+                        <div class="system-list__item-name">Windows</div>
+                    </li>
+                    <li class="system-list__item">
+                        <div class="system-list__item-icon">
+                            <svg width="53" height="52">
+                                <use xlink:href="#ic_ubuntu"></use>
+                            </svg>
+                        </div>
+                        <div class="system-list__item-name">Ubuntu</div>
+                    </li>
+                    <li class="system-list__item">
+                        <div class="system-list__item-icon">
+                            <svg width="53" height="52">
+                                <use xlink:href="#ic_ubuntu"></use>
+                            </svg>
+                        </div>
+                        <div class="system-list__item-name">Ubuntu</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="section section-faq">
+        <div class="wrapper">
+            <div class="faq">
+                <h1 class="section__title">Вопросы и ответы</h1>
+                <ul class="accordion">
+                    <li class="accordion__item">
+                        <div class="accordion__item-title">Я нашел дешевле, какой смысл покупать у вас?</div>
+                        <div class="accordion__item-content">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consequatur fuga ipsum
+                            iste iusto maxime nostrum optio sit sunt voluptas.
+                        </div>
+                    </li>
+                    <li class="accordion__item">
+                        <div class="accordion__item-title">Чем вы лучше других?</div>
+                        <div class="accordion__item-content">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ea eligendi enim
+                            exercitationem harum, id libero numquam repudiandae rerum. Aspernatur assumenda at commodi
+                            consectetur, dicta ducimus eos eum ex excepturi, expedita facere facilis id ipsam iste
+                            laboriosam maxime nesciunt nisi obcaecati, perspiciatis placeat porro quidem quisquam sequi
+                            temporibus voluptates voluptatum.
+                        </div>
+                    </li>
+                    <li class="accordion__item">
+                        <div class="accordion__item-title">Должен ли я что-то платить, если зарегистрируюсь или возьму
+                            сервер на тест?
+                        </div>
+                        <div class="accordion__item-content">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, beatae dicta dignissimos
+                            distinctio eum eveniet exercitationem expedita ipsa magni non numquam odio officia quas,
+                            repellat repellendus tenetur veritatis vero! Accusamus aliquid assumenda beatae deserunt,
+                            distinctio doloremque, dolores doloribus enim ex facilis in inventore laborum libero maxime
+                            modi, molestiae nobis possimus praesentium provident quia unde vel vitae! Ab ad aspernatur
+                            atque commodi consequuntur cupiditate delectus dolores dolorum enim est ex exercitationem
+                            harum, illo illum ipsa itaque labore libero magnam maxime minima minus nihil officia omnis
+                            optio provident quae qui quo rem repellat reprehenderit repudiandae saepe sed sunt tempora
+                            tempore unde vitae.
+                        </div>
+                    </li>
+                    <li class="accordion__item">
+                        <div class="accordion__item-title">Вы поможете мне перенести или настроить сайт?</div>
+                        <div class="accordion__item-content">
+                            Да, заказ услуги включает опцию помощи в переносе ваших проектов к нам или первичной
+                            настройки серверов. Для этого, после
+                            заказа необходимых вам услуг, обратитесь в техподдержку с соответствующим запросом.
+                        </div>
+                    </li>
+                    <li class="accordion__item">
+                        <div class="accordion__item-title">Вы возвращаете деньги, если мне что-то не подходит или я
+                            чем-то недоволен?
+                        </div>
+                        <div class="accordion__item-content">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor hic, odit? Aspernatur
+                            facilis molestiae perferendis rem. Aperiam dicta error quo sed suscipit. A accusamus
+                            accusantium asperiores autem culpa distinctio et ipsa natus nesciunt odit, qui, quo
+                            temporibus tenetur velit voluptatem. Facere ipsa obcaecati ut! Atque consequatur
+                            consequuntur cum iste laborum nam nihil nisi perspiciatis quaerat, quam quidem repudiandae
+                            voluptatibus? Accusamus adipisci consequatur delectus et ex id, ipsam nisi nostrum officia,
+                            praesentium quis quos recusandae similique totam, veritatis. Ab aliquid asperiores atque
+                            autem blanditiis culpa cum cumque deserunt dolor dolore earum eos error eum excepturi, hic
+                            illum ipsa maxime minima molestias mollitia non provident quidem quod ratione rem sapiente
+                            sed sequi soluta velit voluptatibus. Accusamus accusantium aliquam amet aperiam autem beatae
+                            blanditiis cum doloremque eveniet exercitationem facilis iure nemo neque pariatur provident
+                            quam rem repellat saepe, sed soluta suscipit vel vitae voluptatum? Ad, fugit ipsam iste
+                            minima repudiandae rerum velit? Animi architecto atque aut corporis dolores est, et
+                            excepturi exercitationem iste necessitatibus nesciunt nihil non porro quam reprehenderit
+                            sapiente suscipit totam voluptas! Aperiam, delectus deleniti dignissimos dolor enim eum
+                            eveniet exercitationem harum minima minus non odio officia officiis perspiciatis quo saepe
+                            tempora vitae! Dicta illum iure laborum, placeat quod soluta ut?
+                        </div>
+                    </li>
+                    <li class="accordion__item hidden-block">
+                        <div class="accordion__item-title">Вы поможете мне перенести или настроить сайт?</div>
+                        <div class="accordion__item-content">
+                            Да, заказ услуги включает опцию помощи в переносе ваших проектов к нам или первичной
+                            настройки серверов. Для этого, после
+                            заказа необходимых вам услуг, обратитесь в техподдержку с соответствующим запросом.
+                        </div>
+                    </li>
+                    <li class="accordion__item hidden-block">
+                        <div class="accordion__item-title">Вы возвращаете деньги, если мне что-то не подходит или я
+                            чем-то недоволен?
+                        </div>
+                        <div class="accordion__item-content">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor hic, odit? Aspernatur
+                            facilis molestiae perferendis rem. Aperiam dicta error quo sed suscipit. A accusamus
+                            accusantium asperiores autem culpa distinctio et ipsa natus nesciunt odit, qui, quo
+                            temporibus tenetur velit voluptatem. Facere ipsa obcaecati ut! Atque consequatur
+                            consequuntur cum iste laborum nam nihil nisi perspiciatis quaerat, quam quidem repudiandae
+                            voluptatibus? Accusamus adipisci consequatur delectus et ex id, ipsam nisi nostrum officia,
+                            praesentium quis quos recusandae similique totam, veritatis. Ab aliquid asperiores atque
+                            autem blanditiis culpa cum cumque deserunt dolor dolore earum eos error eum excepturi, hic
+                            illum ipsa maxime minima molestias mollitia non provident quidem quod ratione rem sapiente
+                            sed sequi soluta velit voluptatibus. Accusamus accusantium aliquam amet aperiam autem beatae
+                            blanditiis cum doloremque eveniet exercitationem facilis iure nemo neque pariatur provident
+                            quam rem repellat saepe, sed soluta suscipit vel vitae voluptatum? Ad, fugit ipsam iste
+                            minima repudiandae rerum velit? Animi architecto atque aut corporis dolores est, et
+                            excepturi exercitationem iste necessitatibus nesciunt nihil non porro quam reprehenderit
+                            sapiente suscipit totam voluptas! Aperiam, delectus deleniti dignissimos dolor enim eum
+                            eveniet exercitationem harum minima minus non odio officia officiis perspiciatis quo saepe
+                            tempora vitae! Dicta illum iure laborum, placeat quod soluta ut?
+                        </div>
+                    </li>
+                </ul>
+                <div class="btn btn-blue-transparent js-show-more" data-title="Читать больше"
+                     data-change-title="Читать меньше">Читать больше
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section-blog">
+        <div class="wrapper">
+            <h1 class="section__title">Решения</h1>
+            <div class="blog">
+                <div class="blog__item">
+                    <div class="blog__item-content">
+                        <div class="blog__item-content-title">
+                            Перенести сайт
+                        </div>
+                        <div class="blog__item-content-text">
+                            Корпоративным клиентам с особенными требованиями к конфигурации и количеству оборудования,
+                            готовы предложить гибкий подход для удовлетворения любых запросов. Наши специалисты могут
+                            предложить индивидуальные решения по Вашему техническому заданию. Для получения консультаций
+                            обратитесь в отдел продаж
+                        </div>
+                        <a href="#" class="btn-link">
+                            Дальше
+                            <svg class="ic_dropdown_2" width="12" height="6">
+                                <use xlink:href="#ic_dropdown_2"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="blog__item-img">
+                        <img src="img/img_solution1.jpg" alt="solution_img">
+                    </div>
+                </div>
+                <div class="blog__item">
+                    <div class="blog__item-content">
+                        <div class="blog__item-content-title">
+                            Интернет магазинам
+                        </div>
+                        <div class="blog__item-content-text">
+                            Корпоративным клиентам с особенными требованиями к конфигурации и количеству оборудования,
+                            готовы предложить гибкий подход для удовлетворения любых запросов. Наши специалисты могут
+                            предложить индивидуальные решения по Вашему техническому заданию. Для получения консультаций
+                            обратитесь в отдел продаж
+                        </div>
+                        <a href="#" class="btn-link">
+                            Дальше
+                            <svg class="ic_dropdown_2" width="12" height="6">
+                                <use xlink:href="#ic_dropdown_2"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="blog__item-img">
+                        <img src="img/img_solution1.jpg" alt="solution_img">
+                    </div>
+                </div>
+                <div class="blog__item">
+                    <div class="blog__item-content">
+                        <div class="blog__item-content-title">
+                            File Storage
+                        </div>
+                        <div class="blog__item-content-text">
+                            Корпоративным клиентам с особенными требованиями к конфигурации и количеству оборудования,
+                            готовы предложить гибкий подход для удовлетворения любых запросов. Наши специалисты могут
+                            предложить индивидуальные решения по Вашему техническому заданию. Для получения консультаций
+                            обратитесь в отдел продаж
+                        </div>
+                        <a href="#" class="btn-link">
+                            Дальше
+                            <svg class="ic_dropdown_2" width="12" height="6">
+                                <use xlink:href="#ic_dropdown_2"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="blog__item-img">
+                        <img src="img/img_solution1.jpg" alt="solution_img">
+                    </div>
+                </div>
+            </div>
+            <a href="/blog.html" class="btn btn-blue-transparent">Блог</a>
+        </div>
+    </div>
+    <div class="section section-question">
+        <div class="wrapper">
+            <div class="question">
+                <div class="question__box">
+                    <div class="question__text">
+                        <p>
+                            Остались вопросы или хотите протестировать наши услуги?
+                        </p>
+                        <p>
+                            Просто свяжитесь с нашим менеджером
+                        </p>
+                    </div>
+                    <a href="#modal-push-question" class="btn btn-white-transparent js-modal">Связаться с менеджером</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+//=include partials/footer.html
 <!-- END out-->
 //=include partials/foot.html
+
+//=include partials/modals.html
 </body>
 </html>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #ccc;
+      }
+
+      .cls-3 {
+        fill: #999;
+      }
+
+      .cls-4 {
+        fill: #0081b8;
+      }
+    </style>
+  </defs>
+  <g id="pdf-3" transform="translate(-22.04)">
+    <path id="Path_1210" data-name="Path 1210" class="cls-1" d="M63.24,43.375V4H85.488l8.5,8.177v31.2Z" transform="translate(-37.854 -3.688)"/>
+    <path id="Path_1211" data-name="Path 1211" class="cls-2" d="M81.679.625,89.99,8.62V39.375H59.89V.625H81.679M81.948,0H59.24V40h31.4V8.361L81.948,0Z" transform="translate(-34.179)"/>
+    <path id="Path_1212" data-name="Path 1212" class="cls-3" d="M347.533,8.361H338.84V0Z" transform="translate(-291.073)"/>
+    <path id="Path_1213" data-name="Path 1213" class="cls-4" d="M53.346,303.156H22.04V293.008h38Z" transform="translate(0 -270.117)"/>
+    <path id="Path_1214" data-name="Path 1214" class="cls-3" d="M25.061,425.8V422.9H22.04Z" transform="translate(0 -389.857)"/>
+    <g id="Group_390" data-name="Group 390" transform="translate(32.023 25.063)">
+      <path id="Path_1215" data-name="Path 1215" class="cls-1" d="M144.968,326.633V320.8h2.744a2.439,2.439,0,0,1,1.658.413,2.217,2.217,0,0,1,.429,1.591,2.167,2.167,0,0,1-.408,1.555,2.509,2.509,0,0,1-1.652.385l-.266,0h-1.354v1.885Zm1.15-2.815h1.31a1.8,1.8,0,0,0,.993-.174c.14-.116.212-.389.212-.818a1.482,1.482,0,0,0-.175-.916,1.454,1.454,0,0,0-.912-.177h-1.425v2.085Z" transform="translate(-144.968 -320.8)"/>
+      <path id="Path_1216" data-name="Path 1216" class="cls-1" d="M213.5,326.633V320.8h2.979a2.4,2.4,0,0,1,1.779.535,2.7,2.7,0,0,1,.509,1.871,6.051,6.051,0,0,1-.408,2.8q-.409.621-1.844.621Zm1.15-.931h1.639c.551,0,.906-.122,1.068-.365a3.415,3.415,0,0,0,.242-1.614,3.8,3.8,0,0,0-.217-1.64c-.146-.234-.486-.349-1.021-.349h-1.71V325.7Z" transform="translate(-207.931 -320.8)"/>
+      <path id="Path_1217" data-name="Path 1217" class="cls-1" d="M289.831,321.732V323.3h2.717v.93h-2.717v2.4H288.68V320.8H292.7v.932Z" transform="translate(-277.009 -320.8)"/>
+    </g>
+  </g>
+</svg>

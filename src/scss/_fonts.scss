@@ -1,7 +1,7 @@
 /*fonts*/
 
 @mixin font-face($style-name, $file:$style-name, $weight:normal, $style:normal) {
-	$filepath: "/fonts/" + $file;
+	$filepath: "./fonts/" + $file;
 	@font-face {
 		font-family: quote($style-name);
 		src: url($filepath + ".eot");
@@ -14,5 +14,6 @@
 	}
 }
 
+@include font-face('Open Sans', 'OpenSans-Regular', 400, normal);
 
 //  example->    @include font-face('PFDinTextPro', 'PFDinTextPro-Bold', 700, italic);
